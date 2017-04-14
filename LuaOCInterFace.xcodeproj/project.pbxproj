@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEB710DA1EA0A6CF00005172 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB710D91EA0A6CF00005172 /* main.m */; };
+		CEB710DD1EA0A6CF00005172 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB710DC1EA0A6CF00005172 /* AppDelegate.m */; };
+		CEB710E01EA0A6CF00005172 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB710DF1EA0A6CF00005172 /* ViewController.m */; };
+		CEB710E31EA0A6CF00005172 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB710E11EA0A6CF00005172 /* Main.storyboard */; };
+		CEB710E51EA0A6CF00005172 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB710E41EA0A6CF00005172 /* Assets.xcassets */; };
+		CEB710E81EA0A6CF00005172 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB710E61EA0A6CF00005172 /* LaunchScreen.storyboard */; };
+		CEB710F31EA0A6CF00005172 /* LuaOCInterFaceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB710F21EA0A6CF00005172 /* LuaOCInterFaceUITests.m */; };
+		CEB712E71EA0B6FE00005172 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB710DF1EA0A6CF00005172 /* ViewController.m */; };
+		CEB712E81EA0B6FE00005172 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB710DC1EA0A6CF00005172 /* AppDelegate.m */; };
+		CEB712E91EA0B6FE00005172 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB710D91EA0A6CF00005172 /* main.m */; };
+		CEB712EC1EA0B6FE00005172 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB710E61EA0A6CF00005172 /* LaunchScreen.storyboard */; };
+		CEB712ED1EA0B6FE00005172 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB710E41EA0A6CF00005172 /* Assets.xcassets */; };
+		CEB712EE1EA0B6FE00005172 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB710E11EA0A6CF00005172 /* Main.storyboard */; };
+		CEB7167F1EA0C4C700005172 /* liblua.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB7167E1EA0C4C700005172 /* liblua.a */; };
+		CEB716981EA0D07900005172 /* file.lua in Resources */ = {isa = PBXBuildFile; fileRef = CEB716971EA0D07900005172 /* file.lua */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEB710EF1EA0A6CF00005172 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEB710CD1EA0A6CF00005172 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB710D41EA0A6CF00005172;
+			remoteInfo = LuaOCInterFace;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEB710D51EA0A6CF00005172 /* LuaOCInterFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuaOCInterFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB710D91EA0A6CF00005172 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEB710DB1EA0A6CF00005172 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEB710DC1EA0A6CF00005172 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEB710DE1EA0A6CF00005172 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEB710DF1EA0A6CF00005172 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEB710E21EA0A6CF00005172 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEB710E41EA0A6CF00005172 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEB710E71EA0A6CF00005172 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEB710E91EA0A6CF00005172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB710EE1EA0A6CF00005172 /* LuaOCInterFaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuaOCInterFaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB710F21EA0A6CF00005172 /* LuaOCInterFaceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuaOCInterFaceUITests.m; sourceTree = "<group>"; };
+		CEB710F41EA0A6CF00005172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB712F21EA0B6FE00005172 /* LuaOCInterFace_lua.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuaOCInterFace_lua.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB712F31EA0B6FE00005172 /* LuaOCInterFace copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LuaOCInterFace copy-Info.plist"; path = "/Users/user/Desktop/LuaOCInterFace/LuaOCInterFace copy-Info.plist"; sourceTree = "<absolute>"; };
+		CEB7167E1EA0C4C700005172 /* liblua.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblua.a; sourceTree = "<group>"; };
+		CEB716971EA0D07900005172 /* file.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = file.lua; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEB710D21EA0A6CF00005172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB7167F1EA0C4C700005172 /* liblua.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB710EB1EA0A6CF00005172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB712EA1EA0B6FE00005172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEB710CC1EA0A6CF00005172 = {
+			isa = PBXGroup;
+			children = (
+				CEB710D71EA0A6CF00005172 /* LuaOCInterFace */,
+				CEB710F11EA0A6CF00005172 /* LuaOCInterFaceUITests */,
+				CEB710D61EA0A6CF00005172 /* Products */,
+				CEB711091EA0ACF600005172 /* Frameworks */,
+				CEB712F31EA0B6FE00005172 /* LuaOCInterFace copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		CEB710D61EA0A6CF00005172 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEB710D51EA0A6CF00005172 /* LuaOCInterFace.app */,
+				CEB710EE1EA0A6CF00005172 /* LuaOCInterFaceUITests.xctest */,
+				CEB712F21EA0B6FE00005172 /* LuaOCInterFace_lua.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEB710D71EA0A6CF00005172 /* LuaOCInterFace */ = {
+			isa = PBXGroup;
+			children = (
+				CEB7167E1EA0C4C700005172 /* liblua.a */,
+				CEB710DB1EA0A6CF00005172 /* AppDelegate.h */,
+				CEB710DC1EA0A6CF00005172 /* AppDelegate.m */,
+				CEB710DE1EA0A6CF00005172 /* ViewController.h */,
+				CEB710DF1EA0A6CF00005172 /* ViewController.m */,
+				CEB710E11EA0A6CF00005172 /* Main.storyboard */,
+				CEB710E41EA0A6CF00005172 /* Assets.xcassets */,
+				CEB710E61EA0A6CF00005172 /* LaunchScreen.storyboard */,
+				CEB710E91EA0A6CF00005172 /* Info.plist */,
+				CEB716971EA0D07900005172 /* file.lua */,
+				CEB710D81EA0A6CF00005172 /* Supporting Files */,
+			);
+			path = LuaOCInterFace;
+			sourceTree = "<group>";
+		};
+		CEB710D81EA0A6CF00005172 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEB710D91EA0A6CF00005172 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEB710F11EA0A6CF00005172 /* LuaOCInterFaceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEB710F21EA0A6CF00005172 /* LuaOCInterFaceUITests.m */,
+				CEB710F41EA0A6CF00005172 /* Info.plist */,
+			);
+			path = LuaOCInterFaceUITests;
+			sourceTree = "<group>";
+		};
+		CEB711091EA0ACF600005172 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEB710D41EA0A6CF00005172 /* LuaOCInterFace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB710F71EA0A6CF00005172 /* Build configuration list for PBXNativeTarget "LuaOCInterFace" */;
+			buildPhases = (
+				CEB710D11EA0A6CF00005172 /* Sources */,
+				CEB710D21EA0A6CF00005172 /* Frameworks */,
+				CEB710D31EA0A6CF00005172 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuaOCInterFace;
+			productName = LuaOCInterFace;
+			productReference = CEB710D51EA0A6CF00005172 /* LuaOCInterFace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEB710ED1EA0A6CF00005172 /* LuaOCInterFaceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB710FA1EA0A6CF00005172 /* Build configuration list for PBXNativeTarget "LuaOCInterFaceUITests" */;
+			buildPhases = (
+				CEB710EA1EA0A6CF00005172 /* Sources */,
+				CEB710EB1EA0A6CF00005172 /* Frameworks */,
+				CEB710EC1EA0A6CF00005172 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEB710F01EA0A6CF00005172 /* PBXTargetDependency */,
+			);
+			name = LuaOCInterFaceUITests;
+			productName = LuaOCInterFaceUITests;
+			productReference = CEB710EE1EA0A6CF00005172 /* LuaOCInterFaceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CEB712E51EA0B6FE00005172 /* LuaOCInterFace_lua */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB712EF1EA0B6FE00005172 /* Build configuration list for PBXNativeTarget "LuaOCInterFace_lua" */;
+			buildPhases = (
+				CEB712E61EA0B6FE00005172 /* Sources */,
+				CEB712EA1EA0B6FE00005172 /* Frameworks */,
+				CEB712EB1EA0B6FE00005172 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuaOCInterFace_lua;
+			productName = LuaOCInterFace;
+			productReference = CEB712F21EA0B6FE00005172 /* LuaOCInterFace_lua.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEB710CD1EA0A6CF00005172 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					CEB710D41EA0A6CF00005172 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = CAG5HVJ5XE;
+						ProvisioningStyle = Automatic;
+					};
+					CEB710ED1EA0A6CF00005172 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CEB710D41EA0A6CF00005172;
+					};
+					CEB712E51EA0B6FE00005172 = {
+						DevelopmentTeam = CAG5HVJ5XE;
+					};
+				};
+			};
+			buildConfigurationList = CEB710D01EA0A6CF00005172 /* Build configuration list for PBXProject "LuaOCInterFace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEB710CC1EA0A6CF00005172;
+			productRefGroup = CEB710D61EA0A6CF00005172 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEB710D41EA0A6CF00005172 /* LuaOCInterFace */,
+				CEB710ED1EA0A6CF00005172 /* LuaOCInterFaceUITests */,
+				CEB712E51EA0B6FE00005172 /* LuaOCInterFace_lua */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEB710D31EA0A6CF00005172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB716981EA0D07900005172 /* file.lua in Resources */,
+				CEB710E81EA0A6CF00005172 /* LaunchScreen.storyboard in Resources */,
+				CEB710E51EA0A6CF00005172 /* Assets.xcassets in Resources */,
+				CEB710E31EA0A6CF00005172 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB710EC1EA0A6CF00005172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB712EB1EA0B6FE00005172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB712EC1EA0B6FE00005172 /* LaunchScreen.storyboard in Resources */,
+				CEB712ED1EA0B6FE00005172 /* Assets.xcassets in Resources */,
+				CEB712EE1EA0B6FE00005172 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEB710D11EA0A6CF00005172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB710E01EA0A6CF00005172 /* ViewController.m in Sources */,
+				CEB710DD1EA0A6CF00005172 /* AppDelegate.m in Sources */,
+				CEB710DA1EA0A6CF00005172 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB710EA1EA0A6CF00005172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB710F31EA0A6CF00005172 /* LuaOCInterFaceUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB712E61EA0B6FE00005172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB712E71EA0B6FE00005172 /* ViewController.m in Sources */,
+				CEB712E81EA0B6FE00005172 /* AppDelegate.m in Sources */,
+				CEB712E91EA0B6FE00005172 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEB710F01EA0A6CF00005172 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEB710D41EA0A6CF00005172 /* LuaOCInterFace */;
+			targetProxy = CEB710EF1EA0A6CF00005172 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEB710E11EA0A6CF00005172 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB710E21EA0A6CF00005172 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEB710E61EA0A6CF00005172 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB710E71EA0A6CF00005172 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEB710F51EA0A6CF00005172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEB710F61EA0A6CF00005172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEB710F81EA0A6CF00005172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CAG5HVJ5XE;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INFOPLIST_FILE = LuaOCInterFace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LuaOCInterFace",
+					/usr/local/lib,
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = nd.LuaOCInterFace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		CEB710F91EA0A6CF00005172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CAG5HVJ5XE;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INFOPLIST_FILE = LuaOCInterFace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LuaOCInterFace",
+					/usr/local/lib,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nd.LuaOCInterFace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEB710FB1EA0A6CF00005172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LuaOCInterFaceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nd.LuaOCInterFaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LuaOCInterFace;
+			};
+			name = Debug;
+		};
+		CEB710FC1EA0A6CF00005172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LuaOCInterFaceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nd.LuaOCInterFaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LuaOCInterFace;
+			};
+			name = Release;
+		};
+		CEB712F01EA0B6FE00005172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CAG5HVJ5XE;
+				INFOPLIST_FILE = "LuaOCInterFace copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LuaOCInterFace",
+					"$(PROJECT_DIR)/LuaOCInterFace/src",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nd.LuaOCInterFace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEB712F11EA0B6FE00005172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CAG5HVJ5XE;
+				INFOPLIST_FILE = "LuaOCInterFace copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LuaOCInterFace",
+					"$(PROJECT_DIR)/LuaOCInterFace/src",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nd.LuaOCInterFace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEB710D01EA0A6CF00005172 /* Build configuration list for PBXProject "LuaOCInterFace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB710F51EA0A6CF00005172 /* Debug */,
+				CEB710F61EA0A6CF00005172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB710F71EA0A6CF00005172 /* Build configuration list for PBXNativeTarget "LuaOCInterFace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB710F81EA0A6CF00005172 /* Debug */,
+				CEB710F91EA0A6CF00005172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB710FA1EA0A6CF00005172 /* Build configuration list for PBXNativeTarget "LuaOCInterFaceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB710FB1EA0A6CF00005172 /* Debug */,
+				CEB710FC1EA0A6CF00005172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB712EF1EA0B6FE00005172 /* Build configuration list for PBXNativeTarget "LuaOCInterFace_lua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB712F01EA0B6FE00005172 /* Debug */,
+				CEB712F11EA0B6FE00005172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEB710CD1EA0A6CF00005172 /* Project object */;
+}
